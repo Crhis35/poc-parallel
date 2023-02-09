@@ -26,6 +26,7 @@ At a high-level, was created a simulation in the following steps:
 - use Python’s “timeit” function to execute the “hub” function for 5 times to get an average time spent measure under the given parallelization setting.
 
 ![Graph](./images/fig1.png)
+
 Was evaluated from 1 to 8 "workers" varying threads and processes.
 
 Here are some findings that one can easily see on the graph:
@@ -43,7 +44,10 @@ Then it was evaluated from `[1, 2, 4, 8, 16, 34, 64]` "workers" varying threads 
 
 ## References
 
-[Differences between the threading and multiprocessing](https://stackoverflow.com/questions/18114285/what-are-the-differences-between-the-threading-and-multiprocessing-modules)
-[Multithreading vs multiprocessing in python](https://medium.com/contentsquare-engineering-blog/multithreading-vs-multiprocessing-in-python-ece023ad55a)
-[Difference Multithreading vs multiprocessing in python](https://www.geeksforgeeks.org/difference-between-multithreading-vs-multiprocessing-in-python)
-[Concurrent features](https://docs.python.org/3/library/concurrent.futures.html)
+[Differences between the threading and multiprocessing](https://stackoverflow.com/questions/18114285/what-are-the-differences-between-the-threading-and-multiprocessing-modules).
+
+[Multithreading vs multiprocessing in python](https://medium.com/contentsquare-engineering-blog/multithreading-vs-multiprocessing-in-python-ece023ad55a).
+
+[Difference Multithreading vs multiprocessing in python](https://www.geeksforgeeks.org/difference-between-multithreading-vs-multiprocessing-in-python).
+
+[Concurrent features](https://docs.python.org/3/library/concurrent.futures.html).
